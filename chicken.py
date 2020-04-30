@@ -7,7 +7,7 @@ chicken.show_icon(robot_name)
 name = chicken.ask()
 
 while(True):
-	print("鸡仔：你有什么吩咐？")
+	print("鸡仔：您有什么吩咐？")
 	cmd = input()
 	if(cmd == "time"):
 		order.show_time()
